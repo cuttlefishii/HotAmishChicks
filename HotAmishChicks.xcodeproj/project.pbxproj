@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57CF6D4D1B76FCA400E4818D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57CF6D4C1B76FCA400E4818D /* Foundation.framework */; };
+		57CF6D4F1B76FCA400E4818D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57CF6D4E1B76FCA400E4818D /* CoreGraphics.framework */; };
+		57CF6D511B76FCA400E4818D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57CF6D501B76FCA400E4818D /* UIKit.framework */; };
+		57CF6D571B76FCA400E4818D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 57CF6D551B76FCA400E4818D /* InfoPlist.strings */; };
+		57CF6D591B76FCA400E4818D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CF6D581B76FCA400E4818D /* main.m */; };
+		57CF6D5D1B76FCA400E4818D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CF6D5C1B76FCA400E4818D /* AppDelegate.m */; };
+		57CF6D5F1B76FCA500E4818D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57CF6D5E1B76FCA500E4818D /* Images.xcassets */; };
+		57CF6D661B76FCA500E4818D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57CF6D651B76FCA500E4818D /* XCTest.framework */; };
+		57CF6D671B76FCA500E4818D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57CF6D4C1B76FCA400E4818D /* Foundation.framework */; };
+		57CF6D681B76FCA500E4818D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57CF6D501B76FCA400E4818D /* UIKit.framework */; };
+		57CF6D701B76FCA500E4818D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 57CF6D6E1B76FCA500E4818D /* InfoPlist.strings */; };
+		57CF6D721B76FCA500E4818D /* HotAmishChicksTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CF6D711B76FCA500E4818D /* HotAmishChicksTests.m */; };
+		57CF6D851B76FE5000E4818D /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CF6D831B76FE5000E4818D /* HomeViewController.m */; };
+		57CF6D861B76FE5000E4818D /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57CF6D841B76FE5000E4818D /* HomeViewController.xib */; };
+		57CF6D8A1B77067600E4818D /* ChickViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CF6D881B77067600E4818D /* ChickViewController.m */; };
+		57CF6D8B1B77067600E4818D /* ChickViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57CF6D891B77067600E4818D /* ChickViewController.xib */; };
+		57CF6DA01B77117B00E4818D /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 57CF6D8D1B77117A00E4818D /* 1.jpg */; };
+		57CF6DA11B77117B00E4818D /* 10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 57CF6D8E1B77117A00E4818D /* 10.jpg */; };
+		57CF6DA21B77117B00E4818D /* 11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 57CF6D8F1B77117A00E4818D /* 11.jpg */; };
+		57CF6DA31B77117B00E4818D /* 12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 57CF6D901B77117A00E4818D /* 12.jpg */; };
+		57CF6DA41B77117B00E4818D /* 13.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 57CF6D911B77117A00E4818D /* 13.jpeg */; };
+		57CF6DA51B77117B00E4818D /* 14.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 57CF6D921B77117B00E4818D /* 14.jpg */; };
+		57CF6DA61B77117B00E4818D /* 15.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 57CF6D931B77117B00E4818D /* 15.jpg */; };
+		57CF6DA71B77117B00E4818D /* 16.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 57CF6D941B77117B00E4818D /* 16.jpg */; };
+		57CF6DA81B77117B00E4818D /* 17.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 57CF6D951B77117B00E4818D /* 17.jpeg */; };
+		57CF6DA91B77117B00E4818D /* 18.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 57CF6D961B77117B00E4818D /* 18.jpg */; };
+		57CF6DAA1B77117B00E4818D /* 19.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 57CF6D971B77117B00E4818D /* 19.jpg */; };
+		57CF6DAB1B77117B00E4818D /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 57CF6D981B77117B00E4818D /* 2.jpg */; };
+		57CF6DAC1B77117B00E4818D /* 3.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 57CF6D991B77117B00E4818D /* 3.JPG */; };
+		57CF6DAD1B77117B00E4818D /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 57CF6D9A1B77117B00E4818D /* 4.jpg */; };
+		57CF6DAE1B77117B00E4818D /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 57CF6D9B1B77117B00E4818D /* 5.jpg */; };
+		57CF6DAF1B77117B00E4818D /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 57CF6D9C1B77117B00E4818D /* 6.jpg */; };
+		57CF6DB01B77117B00E4818D /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 57CF6D9D1B77117B00E4818D /* 7.jpg */; };
+		57CF6DB11B77117B00E4818D /* 8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 57CF6D9E1B77117B00E4818D /* 8.jpg */; };
+		57CF6DB21B77117B00E4818D /* 9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 57CF6D9F1B77117B00E4818D /* 9.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		57CF6D691B76FCA500E4818D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57CF6D411B76FCA400E4818D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57CF6D481B76FCA400E4818D;
+			remoteInfo = HotAmishChicks;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		57CF6D491B76FCA400E4818D /* HotAmishChicks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HotAmishChicks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57CF6D4C1B76FCA400E4818D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		57CF6D4E1B76FCA400E4818D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		57CF6D501B76FCA400E4818D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		57CF6D541B76FCA400E4818D /* HotAmishChicks-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HotAmishChicks-Info.plist"; sourceTree = "<group>"; };
+		57CF6D561B76FCA400E4818D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		57CF6D581B76FCA400E4818D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		57CF6D5A1B76FCA400E4818D /* HotAmishChicks-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HotAmishChicks-Prefix.pch"; sourceTree = "<group>"; };
+		57CF6D5B1B76FCA400E4818D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		57CF6D5C1B76FCA400E4818D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		57CF6D5E1B76FCA500E4818D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		57CF6D641B76FCA500E4818D /* HotAmishChicksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HotAmishChicksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57CF6D651B76FCA500E4818D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		57CF6D6D1B76FCA500E4818D /* HotAmishChicksTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HotAmishChicksTests-Info.plist"; sourceTree = "<group>"; };
+		57CF6D6F1B76FCA500E4818D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		57CF6D711B76FCA500E4818D /* HotAmishChicksTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HotAmishChicksTests.m; sourceTree = "<group>"; };
+		57CF6D821B76FE5000E4818D /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeViewController.h; path = ../HomeViewController.h; sourceTree = "<group>"; };
+		57CF6D831B76FE5000E4818D /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeViewController.m; path = ../HomeViewController.m; sourceTree = "<group>"; };
+		57CF6D841B76FE5000E4818D /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HomeViewController.xib; path = ../HomeViewController.xib; sourceTree = "<group>"; };
+		57CF6D871B77067600E4818D /* ChickViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChickViewController.h; sourceTree = "<group>"; };
+		57CF6D881B77067600E4818D /* ChickViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChickViewController.m; sourceTree = "<group>"; };
+		57CF6D891B77067600E4818D /* ChickViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChickViewController.xib; sourceTree = "<group>"; };
+		57CF6D8D1B77117A00E4818D /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 1.jpg; path = topsecret/1.jpg; sourceTree = "<group>"; };
+		57CF6D8E1B77117A00E4818D /* 10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 10.jpg; path = topsecret/10.jpg; sourceTree = "<group>"; };
+		57CF6D8F1B77117A00E4818D /* 11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 11.jpg; path = topsecret/11.jpg; sourceTree = "<group>"; };
+		57CF6D901B77117A00E4818D /* 12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 12.jpg; path = topsecret/12.jpg; sourceTree = "<group>"; };
+		57CF6D911B77117A00E4818D /* 13.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 13.jpeg; path = topsecret/13.jpeg; sourceTree = "<group>"; };
+		57CF6D921B77117B00E4818D /* 14.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 14.jpg; path = topsecret/14.jpg; sourceTree = "<group>"; };
+		57CF6D931B77117B00E4818D /* 15.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 15.jpg; path = topsecret/15.jpg; sourceTree = "<group>"; };
+		57CF6D941B77117B00E4818D /* 16.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 16.jpg; path = topsecret/16.jpg; sourceTree = "<group>"; };
+		57CF6D951B77117B00E4818D /* 17.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 17.jpeg; path = topsecret/17.jpeg; sourceTree = "<group>"; };
+		57CF6D961B77117B00E4818D /* 18.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 18.jpg; path = topsecret/18.jpg; sourceTree = "<group>"; };
+		57CF6D971B77117B00E4818D /* 19.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 19.jpg; path = topsecret/19.jpg; sourceTree = "<group>"; };
+		57CF6D981B77117B00E4818D /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 2.jpg; path = topsecret/2.jpg; sourceTree = "<group>"; };
+		57CF6D991B77117B00E4818D /* 3.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 3.JPG; path = topsecret/3.JPG; sourceTree = "<group>"; };
+		57CF6D9A1B77117B00E4818D /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 4.jpg; path = topsecret/4.jpg; sourceTree = "<group>"; };
+		57CF6D9B1B77117B00E4818D /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 5.jpg; path = topsecret/5.jpg; sourceTree = "<group>"; };
+		57CF6D9C1B77117B00E4818D /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 6.jpg; path = topsecret/6.jpg; sourceTree = "<group>"; };
+		57CF6D9D1B77117B00E4818D /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 7.jpg; path = topsecret/7.jpg; sourceTree = "<group>"; };
+		57CF6D9E1B77117B00E4818D /* 8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 8.jpg; path = topsecret/8.jpg; sourceTree = "<group>"; };
+		57CF6D9F1B77117B00E4818D /* 9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 9.jpg; path = topsecret/9.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57CF6D461B76FCA400E4818D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57CF6D4F1B76FCA400E4818D /* CoreGraphics.framework in Frameworks */,
+				57CF6D511B76FCA400E4818D /* UIKit.framework in Frameworks */,
+				57CF6D4D1B76FCA400E4818D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57CF6D611B76FCA500E4818D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57CF6D661B76FCA500E4818D /* XCTest.framework in Frameworks */,
+				57CF6D681B76FCA500E4818D /* UIKit.framework in Frameworks */,
+				57CF6D671B76FCA500E4818D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57CF6D401B76FCA300E4818D = {
+			isa = PBXGroup;
+			children = (
+				57CF6D521B76FCA400E4818D /* HotAmishChicks */,
+				57CF6D6B1B76FCA500E4818D /* HotAmishChicksTests */,
+				57CF6D4B1B76FCA400E4818D /* Frameworks */,
+				57CF6D4A1B76FCA400E4818D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		57CF6D4A1B76FCA400E4818D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57CF6D491B76FCA400E4818D /* HotAmishChicks.app */,
+				57CF6D641B76FCA500E4818D /* HotAmishChicksTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57CF6D4B1B76FCA400E4818D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				57CF6D4C1B76FCA400E4818D /* Foundation.framework */,
+				57CF6D4E1B76FCA400E4818D /* CoreGraphics.framework */,
+				57CF6D501B76FCA400E4818D /* UIKit.framework */,
+				57CF6D651B76FCA500E4818D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		57CF6D521B76FCA400E4818D /* HotAmishChicks */ = {
+			isa = PBXGroup;
+			children = (
+				57CF6D821B76FE5000E4818D /* HomeViewController.h */,
+				57CF6D831B76FE5000E4818D /* HomeViewController.m */,
+				57CF6D871B77067600E4818D /* ChickViewController.h */,
+				57CF6D881B77067600E4818D /* ChickViewController.m */,
+				57CF6D891B77067600E4818D /* ChickViewController.xib */,
+				57CF6D841B76FE5000E4818D /* HomeViewController.xib */,
+				57CF6D5B1B76FCA400E4818D /* AppDelegate.h */,
+				57CF6D5C1B76FCA400E4818D /* AppDelegate.m */,
+				57CF6D8D1B77117A00E4818D /* 1.jpg */,
+				57CF6D8E1B77117A00E4818D /* 10.jpg */,
+				57CF6D8F1B77117A00E4818D /* 11.jpg */,
+				57CF6D901B77117A00E4818D /* 12.jpg */,
+				57CF6D911B77117A00E4818D /* 13.jpeg */,
+				57CF6D921B77117B00E4818D /* 14.jpg */,
+				57CF6D931B77117B00E4818D /* 15.jpg */,
+				57CF6D941B77117B00E4818D /* 16.jpg */,
+				57CF6D951B77117B00E4818D /* 17.jpeg */,
+				57CF6D961B77117B00E4818D /* 18.jpg */,
+				57CF6D971B77117B00E4818D /* 19.jpg */,
+				57CF6D981B77117B00E4818D /* 2.jpg */,
+				57CF6D991B77117B00E4818D /* 3.JPG */,
+				57CF6D9A1B77117B00E4818D /* 4.jpg */,
+				57CF6D9B1B77117B00E4818D /* 5.jpg */,
+				57CF6D9C1B77117B00E4818D /* 6.jpg */,
+				57CF6D9D1B77117B00E4818D /* 7.jpg */,
+				57CF6D9E1B77117B00E4818D /* 8.jpg */,
+				57CF6D9F1B77117B00E4818D /* 9.jpg */,
+				57CF6D5E1B76FCA500E4818D /* Images.xcassets */,
+				57CF6D531B76FCA400E4818D /* Supporting Files */,
+			);
+			path = HotAmishChicks;
+			sourceTree = "<group>";
+		};
+		57CF6D531B76FCA400E4818D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				57CF6D541B76FCA400E4818D /* HotAmishChicks-Info.plist */,
+				57CF6D551B76FCA400E4818D /* InfoPlist.strings */,
+				57CF6D581B76FCA400E4818D /* main.m */,
+				57CF6D5A1B76FCA400E4818D /* HotAmishChicks-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		57CF6D6B1B76FCA500E4818D /* HotAmishChicksTests */ = {
+			isa = PBXGroup;
+			children = (
+				57CF6D711B76FCA500E4818D /* HotAmishChicksTests.m */,
+				57CF6D6C1B76FCA500E4818D /* Supporting Files */,
+			);
+			path = HotAmishChicksTests;
+			sourceTree = "<group>";
+		};
+		57CF6D6C1B76FCA500E4818D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				57CF6D6D1B76FCA500E4818D /* HotAmishChicksTests-Info.plist */,
+				57CF6D6E1B76FCA500E4818D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57CF6D481B76FCA400E4818D /* HotAmishChicks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57CF6D751B76FCA500E4818D /* Build configuration list for PBXNativeTarget "HotAmishChicks" */;
+			buildPhases = (
+				57CF6D451B76FCA400E4818D /* Sources */,
+				57CF6D461B76FCA400E4818D /* Frameworks */,
+				57CF6D471B76FCA400E4818D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HotAmishChicks;
+			productName = HotAmishChicks;
+			productReference = 57CF6D491B76FCA400E4818D /* HotAmishChicks.app */;
+			productType = "com.apple.product-type.application";
+		};
+		57CF6D631B76FCA500E4818D /* HotAmishChicksTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57CF6D781B76FCA500E4818D /* Build configuration list for PBXNativeTarget "HotAmishChicksTests" */;
+			buildPhases = (
+				57CF6D601B76FCA500E4818D /* Sources */,
+				57CF6D611B76FCA500E4818D /* Frameworks */,
+				57CF6D621B76FCA500E4818D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57CF6D6A1B76FCA500E4818D /* PBXTargetDependency */,
+			);
+			name = HotAmishChicksTests;
+			productName = HotAmishChicksTests;
+			productReference = 57CF6D641B76FCA500E4818D /* HotAmishChicksTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57CF6D411B76FCA400E4818D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = CuttlefishCreations;
+				TargetAttributes = {
+					57CF6D631B76FCA500E4818D = {
+						TestTargetID = 57CF6D481B76FCA400E4818D;
+					};
+				};
+			};
+			buildConfigurationList = 57CF6D441B76FCA400E4818D /* Build configuration list for PBXProject "HotAmishChicks" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 57CF6D401B76FCA300E4818D;
+			productRefGroup = 57CF6D4A1B76FCA400E4818D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57CF6D481B76FCA400E4818D /* HotAmishChicks */,
+				57CF6D631B76FCA500E4818D /* HotAmishChicksTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57CF6D471B76FCA400E4818D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57CF6DB11B77117B00E4818D /* 8.jpg in Resources */,
+				57CF6DB21B77117B00E4818D /* 9.jpg in Resources */,
+				57CF6DA51B77117B00E4818D /* 14.jpg in Resources */,
+				57CF6DA31B77117B00E4818D /* 12.jpg in Resources */,
+				57CF6D571B76FCA400E4818D /* InfoPlist.strings in Resources */,
+				57CF6DB01B77117B00E4818D /* 7.jpg in Resources */,
+				57CF6D8B1B77067600E4818D /* ChickViewController.xib in Resources */,
+				57CF6DA71B77117B00E4818D /* 16.jpg in Resources */,
+				57CF6DA41B77117B00E4818D /* 13.jpeg in Resources */,
+				57CF6DAD1B77117B00E4818D /* 4.jpg in Resources */,
+				57CF6DAB1B77117B00E4818D /* 2.jpg in Resources */,
+				57CF6DA81B77117B00E4818D /* 17.jpeg in Resources */,
+				57CF6D5F1B76FCA500E4818D /* Images.xcassets in Resources */,
+				57CF6DAC1B77117B00E4818D /* 3.JPG in Resources */,
+				57CF6D861B76FE5000E4818D /* HomeViewController.xib in Resources */,
+				57CF6DA11B77117B00E4818D /* 10.jpg in Resources */,
+				57CF6DAA1B77117B00E4818D /* 19.jpg in Resources */,
+				57CF6DAF1B77117B00E4818D /* 6.jpg in Resources */,
+				57CF6DAE1B77117B00E4818D /* 5.jpg in Resources */,
+				57CF6DA21B77117B00E4818D /* 11.jpg in Resources */,
+				57CF6DA01B77117B00E4818D /* 1.jpg in Resources */,
+				57CF6DA91B77117B00E4818D /* 18.jpg in Resources */,
+				57CF6DA61B77117B00E4818D /* 15.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57CF6D621B76FCA500E4818D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57CF6D701B76FCA500E4818D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57CF6D451B76FCA400E4818D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57CF6D5D1B76FCA400E4818D /* AppDelegate.m in Sources */,
+				57CF6D8A1B77067600E4818D /* ChickViewController.m in Sources */,
+				57CF6D591B76FCA400E4818D /* main.m in Sources */,
+				57CF6D851B76FE5000E4818D /* HomeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57CF6D601B76FCA500E4818D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57CF6D721B76FCA500E4818D /* HotAmishChicksTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		57CF6D6A1B76FCA500E4818D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57CF6D481B76FCA400E4818D /* HotAmishChicks */;
+			targetProxy = 57CF6D691B76FCA500E4818D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		57CF6D551B76FCA400E4818D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57CF6D561B76FCA400E4818D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		57CF6D6E1B76FCA500E4818D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57CF6D6F1B76FCA500E4818D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57CF6D731B76FCA500E4818D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		57CF6D741B76FCA500E4818D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57CF6D761B76FCA500E4818D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HotAmishChicks/HotAmishChicks-Prefix.pch";
+				INFOPLIST_FILE = "HotAmishChicks/HotAmishChicks-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		57CF6D771B76FCA500E4818D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HotAmishChicks/HotAmishChicks-Prefix.pch";
+				INFOPLIST_FILE = "HotAmishChicks/HotAmishChicks-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		57CF6D791B76FCA500E4818D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HotAmishChicks.app/HotAmishChicks";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HotAmishChicks/HotAmishChicks-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HotAmishChicksTests/HotAmishChicksTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		57CF6D7A1B76FCA500E4818D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HotAmishChicks.app/HotAmishChicks";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HotAmishChicks/HotAmishChicks-Prefix.pch";
+				INFOPLIST_FILE = "HotAmishChicksTests/HotAmishChicksTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57CF6D441B76FCA400E4818D /* Build configuration list for PBXProject "HotAmishChicks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57CF6D731B76FCA500E4818D /* Debug */,
+				57CF6D741B76FCA500E4818D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57CF6D751B76FCA500E4818D /* Build configuration list for PBXNativeTarget "HotAmishChicks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57CF6D761B76FCA500E4818D /* Debug */,
+				57CF6D771B76FCA500E4818D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		57CF6D781B76FCA500E4818D /* Build configuration list for PBXNativeTarget "HotAmishChicksTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57CF6D791B76FCA500E4818D /* Debug */,
+				57CF6D7A1B76FCA500E4818D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57CF6D411B76FCA400E4818D /* Project object */;
+}

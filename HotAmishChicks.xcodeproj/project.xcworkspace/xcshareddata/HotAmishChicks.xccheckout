@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>34CE22C1-9154-49AE-9388-4CFE8AA8B26B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>HotAmishChicks</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B6C811FE-D574-4870-BEE7-AC2840B4FC15</key>
+		<string>https://svn.cs.kent.edu/courses/cs69995/svn/grush1</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>HotAmishChicks/HotAmishChicks.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B6C811FE-D574-4870-BEE7-AC2840B4FC15</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>B6C811FE-D574-4870-BEE7-AC2840B4FC15</key>
+		<string>https://svn.cs.kent.edu/courses/cs69995/svn</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://svn.cs.kent.edu/courses/cs69995/svn/grush1/HotAmishChicks/HotAmishChicks.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B6C811FE-D574-4870-BEE7-AC2840B4FC15</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B6C811FE-D574-4870-BEE7-AC2840B4FC15</string>
+			<key>IDESourceControlWCCName</key>
+			<string>grush1</string>
+		</dict>
+	</array>
+</dict>
+</plist>
